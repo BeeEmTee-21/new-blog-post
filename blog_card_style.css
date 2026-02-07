@@ -1,0 +1,83 @@
+body{
+    background-color: hsl(47, 88%, 63%); 
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    width: 365px;
+    height: 485px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12.5px;
+    box-shadow: 5px 5px black;
+    font-family: figtree;
+
+}
+
+.first_image{
+    width: 335px;
+    padding: 15px;
+    border-radius: 26px;
+}
+
+.border{
+    margin-top: -0.5px;
+    margin-left: 15px;
+    border-style: solid;
+    border-width: 9px ;
+    margin-right: 260px;
+    text-align: center;
+    border-color: hsl(47, 88%, 63%);
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.text{
+    margin-left: 15px;
+    font-size: 16;
+}
+
+h1{
+    margin-left: 15px;
+    font-size: 24px;
+
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.message{
+    margin-left: 15px;
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+
+}
+
+.Author{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    gap: 10px;
+    
+}
+
+.Avatar{
+    margin-left: 15px;
+    width: 25px; 
+    border-radius: 50%;
+}
+
+.Grey_Hooper{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);  
+}
